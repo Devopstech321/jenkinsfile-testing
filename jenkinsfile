@@ -1,0 +1,18 @@
+pipeline
+{
+agent any
+stages
+{
+    stage ('code copyig')
+    {
+        steps{sh 'echo code is downloaded'}
+    }
+    stage ('echo code is deployed')
+    {
+        steps {sh ' echo code is deployed'}
+    }
+
+}
+
+
+}
